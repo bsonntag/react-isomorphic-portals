@@ -1,0 +1,36 @@
+{
+  "name": "react-isomorphic-portals",
+  "version": "0.0.0",
+  "description": "Create react portals on the server",
+  "license": "MIT",
+  "author": "Benjamim Sonntag <benjamimsonntag@gmail.com>",
+  "main": "dist/index.js",
+  "browser": "dist/create-portal.browser.js",
+  "repository": "git@github.com:bsonntag/react-isomorphic-portals.git",
+  "scripts": {
+    "bundle": "rm -rf dist && npm run bundle-src",
+    "bundle-src": "babel src --out-dir dist",
+    "lint": "eslint src",
+    "version": "npm run bundle && git add --all dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-seegno": "^10.0.0",
+    "eslint-plugin-flowtype": "^2.46.3",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.70.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.3.0",
+    "react-dom": ">=16.3.0"
+  }
+}
