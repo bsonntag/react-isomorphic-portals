@@ -86,7 +86,7 @@ and add the portals another time.
 
 ## API
 
-### `createPortal(children: React$Node, elementId: string): React$Node
+### `createPortal(children: React$Node, elementId: string): React$Node`
 
 The first argument (`children`) is any renderable React child,
 such as an element, string, or fragment.
