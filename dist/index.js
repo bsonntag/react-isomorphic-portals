@@ -30,22 +30,3 @@ Object.defineProperty(exports, 'createPortal', {
     return _createPortal.createPortal;
   }
 });
-exports.removePortals = removePortals;
-
-
-/**
- * Export `removePortals`.
- */
-
-function removePortals(elementIds) {
-  elementIds.forEach(function (elementId) {
-    var container = document.getElementById(elementId);
-
-    if (container) {
-      // $FlowFixMe
-      container.childNodes.forEach(function (node) {
-        return node.remove();
-      });
-    }
-  });
-}
