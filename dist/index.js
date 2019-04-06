@@ -1,32 +1,29 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-
-var _portalCollector = require('./portal-collector');
-
-Object.defineProperty(exports, 'PortalCollector', {
+Object.defineProperty(exports, "PortalCollector", {
   enumerable: true,
   get: function get() {
     return _portalCollector.PortalCollector;
   }
 });
-
-var _portalContext = require('./portal-context');
-
-Object.defineProperty(exports, 'PortalCollectorProvider', {
+Object.defineProperty(exports, "PortalCollectorProvider", {
   enumerable: true,
   get: function get() {
     return _portalContext.PortalCollectorProvider;
   }
 });
-
-var _createPortal = require('./create-portal');
-
-Object.defineProperty(exports, 'createPortal', {
+Object.defineProperty(exports, "createPortal", {
   enumerable: true,
   get: function get() {
     return _createPortal.createPortal;
   }
 });
+
+var _portalCollector = require("./portal-collector");
+
+var _portalContext = require("./portal-context");
+
+var _createPortal = require("./create-portal");

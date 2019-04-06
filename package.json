@@ -1,6 +1,6 @@
 {
   "name": "react-isomorphic-portals",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Create react portals on the server",
   "license": "MIT",
   "author": "Benjamim Sonntag <benjamimsonntag@gmail.com>",
