@@ -11,7 +11,7 @@ import { createContext } from 'react';
  * Create portal collector context.
  */
 
-const { Consumer, Provider } = createContext(new PortalCollector());
+const { Consumer, Provider } = createContext<PortalCollector>(new PortalCollector());
 
 /**
  * Export `PortalCollectorConsumer` component.

@@ -23,7 +23,7 @@
     "@babel/preset-react": "^7.0.0",
     "eslint": "^5.16.0",
     "eslint-config-seegno": "^13.0.0",
-    "flow-bin": "^0.70.0",
+    "flow-bin": "^0.96.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
