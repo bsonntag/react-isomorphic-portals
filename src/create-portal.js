@@ -4,11 +4,10 @@
  * Module dependencies.
  */
 
-import type { Node } from 'react';
 import { PortalCollectorConsumer } from './portal-context';
 import { canUseDOM } from './utils/dom';
 import { createPortal as createReactPortal } from 'react-dom';
-import React from 'react';
+import React, { type Node } from 'react';
 
 /**
  * Export `createPortal`.

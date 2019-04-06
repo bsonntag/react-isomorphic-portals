@@ -10,7 +10,7 @@
   "scripts": {
     "bundle": "rm -rf dist && npm run bundle-src",
     "bundle-src": "babel src --out-dir dist",
-    "lint": "eslint src",
+    "lint": "eslint .",
     "version": "npm run bundle && git add --all dist"
   },
   "dependencies": {},
