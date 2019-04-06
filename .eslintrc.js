@@ -3,6 +3,7 @@ module.exports = {
     browser: 1,
   },
   extends: 'seegno',
+  parser: 'babel-eslint',
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
     'no-confusing-arrow': 'off',
